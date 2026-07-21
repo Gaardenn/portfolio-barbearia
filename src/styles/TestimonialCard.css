@@ -1,0 +1,105 @@
+.testimonials-card {
+    border: 1px solid rgba(201, 162, 75, 0.2);
+    border-radius: 1rem;
+    background-color: #312D29;
+    padding: 1rem;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.testimonials-card-quotation {
+    font-size: 1rem;
+    color: rgba(201, 162, 75, 0.2);
+    display: block;
+    margin-left: auto;
+}
+
+.testimonials-card-rating {
+    font-size: 0.75rem;
+    color: #C9A24B;
+    text-align: left;
+    margin-top: -0.5rem;
+}
+
+.testimonials-card-description {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #A8A199;
+    font-style: italic;
+    margin-top: 0.75rem;
+}
+
+.testimonials-card-user {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 0.75rem;
+    gap: 0.5rem;
+}
+
+.testimonials-card-user-icon {
+    background-color: #161513;
+    color: #C9A24B;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    border: 1px solid rgba(201, 162, 75, 0.2);
+    border-radius: 50%;
+}
+
+.testimonials-card-user-name {
+    font-size: 1rem;
+    color: #F1ECE3;
+    font-family: "Inter", sans-serif;
+}
+
+.testimonials-card-user-since {
+    font-size: 0.5rem;
+    color: #A8A199;
+    font-family: "Inter", sans-serif;
+}
+
+@media (min-width: 1024px) {
+    .testimonials-card {
+        width: calc((100% - 2rem) / 3);
+    }
+
+    .testimonials-card-quotation {
+        font-size: 1.5rem;
+    }
+
+    .testimonials-card-rating {
+        font-size: 1.125rem;
+        margin-top: -0.25rem;
+    }
+
+    .testimonials-card-description {
+        font-size: 1.5rem;
+        margin-top: 1.125rem;
+    }
+
+    .testimonials-card-user {
+        margin-top: 1.125rem;
+        gap: 0.75rem;
+    }
+
+    .testimonials-card-user-icon {
+        width: 3rem;
+        height: 3rem;
+        font-size: 1.125rem;
+    }
+
+    .testimonials-card-user-name {
+        font-size: 1.5rem;
+    }
+
+    .testimonials-card-user-since {
+        font-size: 0.75rem;
+    }
+}

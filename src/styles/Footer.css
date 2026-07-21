@@ -1,0 +1,253 @@
+.footer {
+    padding: 1rem 0.5rem 0.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.footer-head {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    color: #F1ECE3;
+    text-align: center;
+}
+
+.footer-head-golden {
+    color: #C9A24B;
+}
+
+.footer-subhead {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #A8A199;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 0.675rem;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C9A24B;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid rgba(201, 162, 75, 0.2);
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    border-top: 1px solid rgba(201, 162, 75, 0.2);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.footer-navigation-head {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C9A24B;
+}
+
+.footer-navigation-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+.footer-navigation-list li>a {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #A8A199;
+}
+
+.footer-schedules-head {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C9A24B;
+}
+
+.footer-schedules-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    gap: 0.5rem;
+    padding: 0;
+}
+
+.footer-schedules-list-item {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #A8A199;
+}
+
+.footer-schedules-list-closed {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #F74A4A;
+}
+
+.footer-contact {
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-bottom: 1px solid rgba(201, 162, 75, 0.2);
+    padding-bottom: 1rem;
+}
+
+.footer-contact-head {
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    color: #C9A24B;
+}
+
+.footer-contact-text {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #A8A199;
+}
+
+.footer-end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-copyright {
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #58524B;
+}
+
+.footer-dev {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-size: 0.75rem;
+    color: #C9A24B;
+}
+
+@media (min-width: 1024px) {
+    .footer {
+        padding: 2rem 2rem 0.5rem;
+        gap: 3rem;
+    }
+
+    .top {
+        display: flex;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid rgba(201, 162, 75, 0.2);
+    }
+
+    .company {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-head {
+        font-size: 2.25rem;
+        text-align: left;
+    }
+
+    .footer-subhead {
+        font-size: 1.125rem;
+        text-align: left;
+        margin-top: 1rem;
+    }
+
+    .footer-icons {
+        gap: 1.125rem;
+        margin-top: 1rem;
+    }
+
+    .footer-icon {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .footer-info {
+        margin-top: 0;
+        padding-top: 0;
+        border: none;
+    }
+
+    .footer-navigation-head {
+        font-size: 1.5rem;
+    }
+
+    .footer-navigation-list {
+        margin-top: 0.75rem;
+        gap: 0.75rem;
+    }
+
+    .footer-navigation-list li>a {
+        font-size: 1.125rem;
+    }
+
+    .footer-schedules-head {
+        font-size: 1.5rem;
+    }
+
+    .footer-schedules-list {
+        margin-top: 0.75rem;
+        gap: 0.75rem;
+    }
+
+    .footer-schedules-list-item {
+        font-size: 1.125rem;
+    }
+
+    .footer-schedules-list-closed {
+        font-size: 1.125rem;
+    }
+
+    .footer-contact {
+        width: auto;
+        margin-top: 0;
+        gap: 0.75rem;
+        padding-bottom: 1.5rem;
+        border: none;
+    }
+
+    .footer-contact-head {
+        font-size: 1.5rem;
+    }
+
+    .footer-contact-text {
+        font-size: 1.125rem;
+    }
+
+    .footer-end {
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+
+    .footer-copyright {
+        font-size: 1.125rem;
+    }
+
+    .footer-dev {
+        font-size: 1.125rem;
+    }
+}
