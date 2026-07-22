@@ -556,7 +556,7 @@
 @media (min-width: 1024px) {
     .hero {
         height: 80vh;
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("hero.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/hero.jpg");
         background-size: 45% auto;
         background-repeat: no-repeat;
         background-position: right center;
